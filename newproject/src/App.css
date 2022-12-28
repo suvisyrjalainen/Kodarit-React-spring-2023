@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(190, 200, 200);  
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+input[type=text] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin-left: 20px;
+}
+
+.inputmap {
+  width: auto;
+  border-bottom: 1px solid black;
+}
+
+.mapheader{
+  padding-top: 12px;
+}
+
+.jokulista{
+  display: flex;
+  justify-content: space-between
+}
+
+.mapitem {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  list-style-type: '•';
+  padding-inline-start: 1ch;
+}
+
+.maincontent{
+  width: 530px;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+
+}
+
+.navlist {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navlink a {
+  padding: 15px 10px 15px 10px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navlink a:hover {
+  background-color: #111;
+}
+
+.inputheader {
+  padding-bottom: 15px;
+}
+
+.inputspan {
+  padding-bottom: 200px;
+}
+
+.homelist {
+  margin-left: 20px;
+}
+
+.mapheader {
+  margin-top: 5px;
+}
+
+.btn-delete {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  display: inline-block;
+  background: rgb(223, 24, 24);
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  margin-right: 10px;
+}
+
+.btn-add {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  display: inline-block;
+  background: rgb(9, 178, 51);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-clear {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  display: inline-block;
+  background: rgb(216, 20, 20);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-draw{
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  display: inline-block;
+  background: rgb(104, 101, 101);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-count {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  width: 180px;
+  display: inline-block;
+  background: rgb(9, 178, 51);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttonscontent {
+  margin-left: 5px;
+}
+
+.itemparent{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 5px 15px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.itemimg {
+  width: 100%;
+}

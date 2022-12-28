@@ -1,0 +1,106 @@
+
+.game {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(190, 200, 200);
+    color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gametitle {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .rowjustify {
+    justify-content: center;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    font-size: 64px;
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+    padding: 30px;
+    font-size: 30px;
+  }
+  
+  .b-bottom-right {
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+  }
+  
+  .b-bottom {
+    border-bottom: 7px solid black;
+  }
+  
+  .b-right {
+    border-right: 7px solid black;
+  }
+  
+  .status {
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .scoreboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    font-size: 1.5em;
+    background-color: rgb(229, 234, 243);
+    margin: 3rem auto;
+    box-shadow: 0px 0px 8px #888;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .score {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .x-score{
+    color: rgb(204, 74, 74);
+    border-bottom: 5px solid rgb(204, 74, 74);
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  
+  .o-score{
+    color: rgb(82, 82, 209);
+    border-bottom: 5px solid rgb(82, 82, 209);
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  
+  .inactive {
+    border-bottom: 5px solid transparent;
+  }
+  
+  .buttons{
+    width: 50%;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    background: rgb(106, 122, 177);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
